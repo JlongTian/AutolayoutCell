@@ -41,4 +41,4 @@ UILabel在约束的时候宽高不需要设置，但在`awakeFromNib`需要对�
     return staus.cellHeight;
 }
 ```
-
+![image](https://github.com/JlongTian/MemoryOptimization/blob/master/images/showImage.gif)
