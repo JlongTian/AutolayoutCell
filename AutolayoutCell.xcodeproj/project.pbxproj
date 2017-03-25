@@ -19,6 +19,12 @@
 		894F5B421E67086C00E75345 /* AutolayoutCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 894F5B411E67086C00E75345 /* AutolayoutCellTests.m */; };
 		894F5B4D1E67086C00E75345 /* AutolayoutCellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 894F5B4C1E67086C00E75345 /* AutolayoutCellUITests.m */; };
 		894F5B5B1E67095800E75345 /* statuses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 894F5B5A1E67095800E75345 /* statuses.plist */; };
+		894FF4A31E85FA8B00610F4C /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 894FF49D1E85FA8B00610F4C /* 1.jpeg */; };
+		894FF4A41E85FA8B00610F4C /* 1516159990.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 894FF49E1E85FA8B00610F4C /* 1516159990.jpeg */; };
+		894FF4A51E85FA8B00610F4C /* 238221586.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 894FF49F1E85FA8B00610F4C /* 238221586.jpeg */; };
+		894FF4A61E85FA8B00610F4C /* 424324.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 894FF4A01E85FA8B00610F4C /* 424324.jpeg */; };
+		894FF4A71E85FA8B00610F4C /* 50.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 894FF4A11E85FA8B00610F4C /* 50.jpeg */; };
+		894FF4A81E85FA8B00610F4C /* 7735164184.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 894FF4A21E85FA8B00610F4C /* 7735164184.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +67,12 @@
 		894F5B4C1E67086C00E75345 /* AutolayoutCellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutolayoutCellUITests.m; sourceTree = "<group>"; };
 		894F5B4E1E67086C00E75345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		894F5B5A1E67095800E75345 /* statuses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statuses.plist; sourceTree = "<group>"; };
+		894FF49D1E85FA8B00610F4C /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		894FF49E1E85FA8B00610F4C /* 1516159990.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1516159990.jpeg; sourceTree = "<group>"; };
+		894FF49F1E85FA8B00610F4C /* 238221586.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 238221586.jpeg; sourceTree = "<group>"; };
+		894FF4A01E85FA8B00610F4C /* 424324.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 424324.jpeg; sourceTree = "<group>"; };
+		894FF4A11E85FA8B00610F4C /* 50.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50.jpeg; sourceTree = "<group>"; };
+		894FF4A21E85FA8B00610F4C /* 7735164184.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7735164184.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +151,7 @@
 		894F5B271E67086C00E75345 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				894FF49C1E85FA8B00610F4C /* icons */,
 				894F5B331E67086C00E75345 /* Assets.xcassets */,
 				894F5B5A1E67095800E75345 /* statuses.plist */,
 				894F5B281E67086C00E75345 /* main.m */,
@@ -162,6 +175,19 @@
 				894F5B4E1E67086C00E75345 /* Info.plist */,
 			);
 			path = AutolayoutCellUITests;
+			sourceTree = "<group>";
+		};
+		894FF49C1E85FA8B00610F4C /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				894FF49D1E85FA8B00610F4C /* 1.jpeg */,
+				894FF49E1E85FA8B00610F4C /* 1516159990.jpeg */,
+				894FF49F1E85FA8B00610F4C /* 238221586.jpeg */,
+				894FF4A01E85FA8B00610F4C /* 424324.jpeg */,
+				894FF4A11E85FA8B00610F4C /* 50.jpeg */,
+				894FF4A21E85FA8B00610F4C /* 7735164184.jpeg */,
+			);
+			path = icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,11 +296,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				894FF4A71E85FA8B00610F4C /* 50.jpeg in Resources */,
+				894FF4A61E85FA8B00610F4C /* 424324.jpeg in Resources */,
+				894FF4A81E85FA8B00610F4C /* 7735164184.jpeg in Resources */,
 				894F5B5B1E67095800E75345 /* statuses.plist in Resources */,
+				894FF4A31E85FA8B00610F4C /* 1.jpeg in Resources */,
 				894F5B371E67086C00E75345 /* LaunchScreen.storyboard in Resources */,
 				894F5B341E67086C00E75345 /* Assets.xcassets in Resources */,
 				8911D2E71E85EF1000E270EC /* JLStausCell.xib in Resources */,
+				894FF4A41E85FA8B00610F4C /* 1516159990.jpeg in Resources */,
 				894F5B321E67086C00E75345 /* Main.storyboard in Resources */,
+				894FF4A51E85FA8B00610F4C /* 238221586.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
