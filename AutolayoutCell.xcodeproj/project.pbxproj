@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8911D2E51E85EF1000E270EC /* JLStasus.m in Sources */ = {isa = PBXBuildFile; fileRef = 8911D2E11E85EF1000E270EC /* JLStasus.m */; };
+		8911D2E61E85EF1000E270EC /* JLStausCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8911D2E31E85EF1000E270EC /* JLStausCell.m */; };
+		8911D2E71E85EF1000E270EC /* JLStausCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8911D2E41E85EF1000E270EC /* JLStausCell.xib */; };
 		894F5B291E67086C00E75345 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 894F5B281E67086C00E75345 /* main.m */; };
 		894F5B2C1E67086C00E75345 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 894F5B2B1E67086C00E75345 /* AppDelegate.m */; };
 		894F5B2F1E67086C00E75345 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 894F5B2E1E67086C00E75345 /* ViewController.m */; };
@@ -16,9 +19,6 @@
 		894F5B421E67086C00E75345 /* AutolayoutCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 894F5B411E67086C00E75345 /* AutolayoutCellTests.m */; };
 		894F5B4D1E67086C00E75345 /* AutolayoutCellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 894F5B4C1E67086C00E75345 /* AutolayoutCellUITests.m */; };
 		894F5B5B1E67095800E75345 /* statuses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 894F5B5A1E67095800E75345 /* statuses.plist */; };
-		894F5B5E1E6709A200E75345 /* JLStasus.m in Sources */ = {isa = PBXBuildFile; fileRef = 894F5B5D1E6709A200E75345 /* JLStasus.m */; };
-		894F5B641E670ACD00E75345 /* JLStausCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 894F5B621E670ACD00E75345 /* JLStausCell.m */; };
-		894F5B651E670ACD00E75345 /* JLStausCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 894F5B631E670ACD00E75345 /* JLStausCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8911D2E01E85EF1000E270EC /* JLStasus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLStasus.h; sourceTree = "<group>"; };
+		8911D2E11E85EF1000E270EC /* JLStasus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLStasus.m; sourceTree = "<group>"; };
+		8911D2E21E85EF1000E270EC /* JLStausCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLStausCell.h; sourceTree = "<group>"; };
+		8911D2E31E85EF1000E270EC /* JLStausCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLStausCell.m; sourceTree = "<group>"; };
+		8911D2E41E85EF1000E270EC /* JLStausCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JLStausCell.xib; sourceTree = "<group>"; };
 		894F5B241E67086C00E75345 /* AutolayoutCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutolayoutCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		894F5B281E67086C00E75345 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		894F5B2A1E67086C00E75345 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,11 +61,6 @@
 		894F5B4C1E67086C00E75345 /* AutolayoutCellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutolayoutCellUITests.m; sourceTree = "<group>"; };
 		894F5B4E1E67086C00E75345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		894F5B5A1E67095800E75345 /* statuses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statuses.plist; sourceTree = "<group>"; };
-		894F5B5C1E6709A200E75345 /* JLStasus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLStasus.h; sourceTree = "<group>"; };
-		894F5B5D1E6709A200E75345 /* JLStasus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLStasus.m; sourceTree = "<group>"; };
-		894F5B611E670ACD00E75345 /* JLStausCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLStausCell.h; sourceTree = "<group>"; };
-		894F5B621E670ACD00E75345 /* JLStausCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLStausCell.m; sourceTree = "<group>"; };
-		894F5B631E670ACD00E75345 /* JLStausCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JLStausCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +88,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8911D2DF1E85EF1000E270EC /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				8911D2E01E85EF1000E270EC /* JLStasus.h */,
+				8911D2E11E85EF1000E270EC /* JLStasus.m */,
+				8911D2E21E85EF1000E270EC /* JLStausCell.h */,
+				8911D2E31E85EF1000E270EC /* JLStausCell.m */,
+				8911D2E41E85EF1000E270EC /* JLStausCell.xib */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
 		894F5B1B1E67086C00E75345 = {
 			isa = PBXGroup;
 			children = (
@@ -111,15 +123,11 @@
 		894F5B261E67086C00E75345 /* AutolayoutCell */ = {
 			isa = PBXGroup;
 			children = (
+				8911D2DF1E85EF1000E270EC /* Class */,
 				894F5B2A1E67086C00E75345 /* AppDelegate.h */,
 				894F5B2B1E67086C00E75345 /* AppDelegate.m */,
 				894F5B2D1E67086C00E75345 /* ViewController.h */,
 				894F5B2E1E67086C00E75345 /* ViewController.m */,
-				894F5B5C1E6709A200E75345 /* JLStasus.h */,
-				894F5B5D1E6709A200E75345 /* JLStasus.m */,
-				894F5B611E670ACD00E75345 /* JLStausCell.h */,
-				894F5B621E670ACD00E75345 /* JLStausCell.m */,
-				894F5B631E670ACD00E75345 /* JLStausCell.xib */,
 				894F5B301E67086C00E75345 /* Main.storyboard */,
 				894F5B351E67086C00E75345 /* LaunchScreen.storyboard */,
 				894F5B381E67086C00E75345 /* Info.plist */,
@@ -263,9 +271,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				894F5B5B1E67095800E75345 /* statuses.plist in Resources */,
-				894F5B651E670ACD00E75345 /* JLStausCell.xib in Resources */,
 				894F5B371E67086C00E75345 /* LaunchScreen.storyboard in Resources */,
 				894F5B341E67086C00E75345 /* Assets.xcassets in Resources */,
+				8911D2E71E85EF1000E270EC /* JLStausCell.xib in Resources */,
 				894F5B321E67086C00E75345 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,9 +301,9 @@
 			files = (
 				894F5B2F1E67086C00E75345 /* ViewController.m in Sources */,
 				894F5B2C1E67086C00E75345 /* AppDelegate.m in Sources */,
-				894F5B641E670ACD00E75345 /* JLStausCell.m in Sources */,
-				894F5B5E1E6709A200E75345 /* JLStasus.m in Sources */,
+				8911D2E51E85EF1000E270EC /* JLStasus.m in Sources */,
 				894F5B291E67086C00E75345 /* main.m in Sources */,
+				8911D2E61E85EF1000E270EC /* JLStausCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,6 +533,7 @@
 				894F5B531E67086C00E75345 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		894F5B541E67086C00E75345 /* Build configuration list for PBXNativeTarget "AutolayoutCellTests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +542,7 @@
 				894F5B561E67086C00E75345 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		894F5B571E67086C00E75345 /* Build configuration list for PBXNativeTarget "AutolayoutCellUITests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +551,7 @@
 				894F5B591E67086C00E75345 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
